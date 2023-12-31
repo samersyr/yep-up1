@@ -1,0 +1,120 @@
+.abbnomenten-section {
+    min-height: 1000px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.headingblack {
+    color: black;
+    text-align: center;
+}
+
+.abbnomenten {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+
+
+}
+
+.abbnoment {
+    height: 600px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 20px;
+
+
+
+
+
+}
+
+.point {
+    width: 100%;
+    color: black;
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+
+
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 90%;
+    padding: 40px;
+    font-size: 120%;
+
+
+
+}
+
+.noticeMy {
+    background: white;
+
+
+
+
+
+
+}
+
+.noticeMy .point {
+    border-bottom: solid 1px black;
+    color: black;
+
+}
+
+.abbnoment .wrapper {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 70%;
+}
+
+.cta--section1{
+    background: transparent;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    height: 70px;
+    font-size: 180%;
+    border: solid 2px black ;
+    color: black;
+    
+
+}
+
+.cta--section1:active{
+background: #D4AF37;
+color: white;
+
+}
+
+.cta--section1:hover{
+
+
+}
+
+@media  screen and  (widt-max:1200px){
+
+.abbnomenten{
+    flex-direction: column;
+
+}
+
+
+}
+

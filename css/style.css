@@ -1,0 +1,369 @@
+.headerwrapper {
+  width: 100%;
+  background-color: #96671f;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navUL {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  gap: 20PX;
+  font-size: 120%;
+}
+
+.navLI {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.navLI a {
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 60px;
+  height: 90px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  background: url(/img/pexels-andrea-piacquadio-974911.jpg);
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+}
+
+.logotext {
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.logotext {
+  font-family: "Dancing Script", cursive;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 400%;
+}
+
+.heading2 {
+  font-weight: 400;
+  font-size: 300%;
+}
+
+.cta {
+  top: 55%;
+  left: 10%;
+  border-radius: 5px;
+  position: absolute;
+  background: #D4AF37;
+  width: 200px;
+  border: none;
+  height: 70px;
+  font-size: 180%;
+  border-right: 5px solid #b29126;
+  border-bottom: 5px solid #b29126;
+}
+
+.cta:hover,
+.cta--section:hover {
+  cursor: pointer;
+}
+
+.cta:active,
+.cta--section:active {
+  background: #b29126;
+  border-right: 5px solid #D4AF37;
+  border-bottom: 5px solid #D4AF37;
+}
+
+.cta--section {
+  border-radius: 5px;
+  background: #D4AF37;
+  width: 200px;
+  border: none;
+  height: 70px;
+  font-size: 180%;
+  border-right: 5px solid #b29126;
+  border-bottom: 5px solid #b29126;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    padding: 0%;
+    font-size: 80%;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    gap: 20px;
+  }
+  .navUL {
+    display: none;
+  }
+  .title {
+    position: relative;
+    font-size: 300%;
+    top: auto;
+    left: auto;
+  }
+  .cta {
+    width: 150px;
+    height: 50px;
+    font-size: 100%;
+    padding: 0;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: white;
+  min-height: 200vh;
+  font-size: 20px;
+  background: #96671f;
+}
+
+a {
+  text-decoration: none;
+}
+
+.background {
+  background: #96671f;
+  min-height: 200vh;
+}
+
+.waarom-wij-over-ons {
+  display: flex;
+  color: black;
+  background: white;
+}
+
+.waarom-wij-text {
+  height: 500px;
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.waarom-wij-afbeelding {
+  height: 500px;
+  width: 50%;
+}
+
+.waarom-wij-afbeelding img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.paragraaf {
+  max-width: 56ch;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (widt-max: 1000px) {
+  .heading2 {
+    font-size: 200%;
+  }
+  .waarom-wij-over-ons {
+    flex-direction: column;
+  }
+  .waarom-wij-afbeelding {
+    width: 100%;
+  }
+}
+.onze-stappen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1000px;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.stappen {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stap {
+  height: 300px;
+  width: 800px;
+  background: white;
+  list-style: none;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.stap div {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.heading3 {
+  font-size: 150%;
+}
+
+.stap img {
+  height: 100%;
+  width: 30%;
+  object-position: top;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.cta:hover,
+.cta--section:hover {
+  cursor: pointer;
+}
+
+.cta:active,
+.cta--section:active {
+  background: #b29126;
+  border-right: 5px solid #D4AF37;
+  border-bottom: 5px solid #D4AF37;
+}
+
+.cta--section {
+  border-radius: 5px;
+  background: #D4AF37;
+  width: 200px;
+  border: none;
+  height: 70px;
+  font-size: 180%;
+  border-right: 5px solid #b29126;
+  border-bottom: 5px solid #b29126;
+}
+
+.abbnomenten-section {
+  min-height: 1000px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.headingblack {
+  color: black;
+  text-align: center;
+}
+
+.abbnomenten {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 40px;
+}
+
+.abbnoment {
+  height: 600px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  padding: 20px;
+}
+
+.point {
+  width: 100%;
+  color: black;
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  height: 90%;
+  padding: 40px;
+  font-size: 120%;
+}
+
+.noticeMy {
+  background: white;
+}
+
+.noticeMy .point {
+  border-bottom: solid 1px black;
+  color: black;
+}
+
+.abbnoment .wrapper {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  font-size: 70%;
+}
+
+.cta--section1 {
+  background: transparent;
+  border-radius: 5px;
+  width: 200px;
+  border: none;
+  height: 70px;
+  font-size: 180%;
+  border: solid 2px black;
+  color: black;
+}
+
+.cta--section1:active {
+  background: #D4AF37;
+  color: white;
+}
+
+@media screen and (widt-max: 1200px) {
+  .abbnomenten {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

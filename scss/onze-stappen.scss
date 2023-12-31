@@ -1,0 +1,84 @@
+.onze-stappen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1000px;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.stappen {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stap {
+    height: 300px;
+    width: 800px;
+    background: white;
+    list-style: none;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    gap: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2); 
+}
+
+.stap div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.heading3 {
+    
+    font-size: 150%;
+}
+
+.stap img{
+    height: 100%;
+    width: 30%;
+    object-position: top;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+
+}
+
+.cta:hover,
+.cta--section:hover {
+    cursor: pointer;
+
+
+}
+
+
+.cta:active,
+.cta--section:active
+ {
+    background: darken(#D4AF37, 10%);
+    border-right: 5px solid #D4AF37;
+    border-bottom: 5px solid#D4AF37;
+
+
+}
+
+.cta--section {
+    border-radius: 5px;
+    background: #D4AF37;
+    width: 200px;
+    border: none;
+    height: 70px;
+    font-size: 180%;
+    border-right: 5px solid darken(#D4AF37, 10%);
+    border-bottom: 5px solid darken(#D4AF37, 10%);
+
+
+}
